@@ -1,0 +1,505 @@
+!SESSION 2019-09-29 18:12:25.660 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\saral\OneDrive\Documentos\GitHub\train -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2019-09-29 18:12:27.928
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.288
+!MESSAGE Starting up
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.323
+!MESSAGE Do I have to initialize workspace settings?
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.323
+!MESSAGE Yes I do
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.332
+!MESSAGE The source file:/resources/windows/resources.zip
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.332
+!MESSAGE The dest file:C:\Users\saral\OneDrive\Documentos\GitHub\train\.metadata\.plugins\es.gavab.IDEConfigurator\resources.zip
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.380
+!MESSAGE The source file:/resources/windows/files.txt
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.381
+!MESSAGE The dest file:C:\Users\saral\OneDrive\Documentos\GitHub\train\.metadata\.plugins\es.gavab.IDEConfigurator\files.txt
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.381
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.381
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.381
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.381
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.385
+!MESSAGE Replacing:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.386
+!MESSAGE Replaced:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.387
+!MESSAGE Replacing:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.387
+!MESSAGE Replaced:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.388
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.389
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.389
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.390
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.392
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.392
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.392
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.394
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.395
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.395
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.395
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.396
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.396
+!MESSAGE Replacing:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="<<<$wsne>>>/ruby-1.9.3/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.396
+!MESSAGE Replaced:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="C\:/Users/saral/Documents/Sistema/EclipseComplete/ruby-1.9.3/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.396
+!MESSAGE Replacing:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="C\:/Users/saral/Documents/Sistema/EclipseComplete/ruby-1.9.3/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.396
+!MESSAGE Replaced:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="C\:/Users/saral/Documents/Sistema/EclipseComplete/ruby-1.9.3/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.396
+!MESSAGE Replacing:EXECUTABLE_NAME=<<<$ws>>>\\ghc-7.8.3\\bin\\ghc.exe
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.401
+!MESSAGE Replaced:EXECUTABLE_NAME=<<<$ws>>>\\ghc-7.8.3\\bin\\ghc.exe
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.401
+!MESSAGE Replacing:EXECUTABLE_NAME=<<<$ws>>>\\ghc-7.8.3\\bin\\ghc.exe
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.402
+!MESSAGE Replaced:EXECUTABLE_NAME=C\:\\Users\\saral\\Documents\\Sistema\\EclipseComplete\\ghc-7.8.3\\bin\\ghc.exe
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.403
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.403
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.404
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.404
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.407
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.407
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.408
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.408
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.408
+!MESSAGE Replacing:environment/workspace/PATH/delimiter=;
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.409
+!MESSAGE Replaced:environment/workspace/PATH/delimiter=;
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.409
+!MESSAGE Replacing:environment/workspace/PATH/delimiter=;
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.409
+!MESSAGE Replaced:environment/workspace/PATH/delimiter=;
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.409
+!MESSAGE Replacing:environment/workspace/PATH/operation=append
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.409
+!MESSAGE Replaced:environment/workspace/PATH/operation=append
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.409
+!MESSAGE Replacing:environment/workspace/PATH/operation=append
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.412
+!MESSAGE Replaced:environment/workspace/PATH/operation=append
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.412
+!MESSAGE Replacing:environment/workspace/PATH/value=${eclipse_home}\\..\\MinGW\\bin;${eclipse_home}\\..\\MinGW\\msys\\1.0\\bin
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.413
+!MESSAGE Replaced:environment/workspace/PATH/value=${eclipse_home}\\..\\MinGW\\bin;${eclipse_home}\\..\\MinGW\\msys\\1.0\\bin
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.413
+!MESSAGE Replacing:environment/workspace/PATH/value=${eclipse_home}\\..\\MinGW\\bin;${eclipse_home}\\..\\MinGW\\msys\\1.0\\bin
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.413
+!MESSAGE Replaced:environment/workspace/PATH/value=${eclipse_home}\\..\\MinGW\\bin;${eclipse_home}\\..\\MinGW\\msys\\1.0\\bin
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.413
+!MESSAGE Replacing:environment/workspace/append=true
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.413
+!MESSAGE Replaced:environment/workspace/append=true
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.413
+!MESSAGE Replacing:environment/workspace/append=true
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.416
+!MESSAGE Replaced:environment/workspace/append=true
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.416
+!MESSAGE Replacing:environment/workspace/appendContributed=false
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.417
+!MESSAGE Replaced:environment/workspace/appendContributed=false
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.418
+!MESSAGE Replacing:environment/workspace/appendContributed=false
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.418
+!MESSAGE Replaced:environment/workspace/appendContributed=false
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2019-09-29 18:12:46.421
+!MESSAGE Work done
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-29 18:17:03.136
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\saral'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 18:17:09.173
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 18:17:09.181
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 18:17:10.340
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 18:17:10.341
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 18:19:22.982
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 18:19:22.984
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 19:08:31.871
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 19:08:31.875
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-09-29 20:07:06.594
+!MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.debug.ui 4 0 2019-09-29 20:08:41.607
+!MESSAGE Launch shortcut 'net.sf.eclipsefp.haskell.ui.launch.ExecutableLaunchShortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property net.sf.eclipsefp.haskell.core.isProjectExecutable to type class org.eclipse.ui.part.FileEditorInput
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:123)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:96)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:150)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:287)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:218)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:141)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:782)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1276)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1256)
+	at org.eclipse.jface.action.ActionContributionItem.access$4(ActionContributionItem.java:1245)
+	at org.eclipse.jface.action.ActionContributionItem$8.handleEvent(ActionContributionItem.java:1218)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4963)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4639)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:256)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3755)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2019-09-29 20:08:41.607
+!MESSAGE No property tester contributes a property net.sf.eclipsefp.haskell.core.isProjectExecutable to type class org.eclipse.ui.part.FileEditorInput
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:09:34.784
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:09:34.784
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:11:37.250
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:11:37.250
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-09-29 20:26:38.695
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ArrayList [in ArrayList.class [in java.util [in C:\Users\saral\Documents\Sistema\EclipseComplete\eclipse\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:689)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-09-29 20:26:38.695
+!MESSAGE Unknown javadoc format for ArrayList [in ArrayList.class [in java.util [in C:\Users\saral\Documents\Sistema\EclipseComplete\eclipse\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:37:33.170
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:37:33.175
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:42:33.322
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:42:33.322
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:43:11.633
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:43:11.633
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:43:25.584
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:43:25.584
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:43:51.472
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:43:51.472
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:44:29.525
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:44:29.525
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:44:49.284
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:44:49.299
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:48:27.092
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:48:27.092
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:50:46.848
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:50:46.848
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:55:59.578
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:55:59.578
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:58:18.462
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 20:58:18.462
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-09-29 21:03:50.619
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for RuntimeException {key=Ljava/lang/RuntimeException;} [in RuntimeException.class [in java.lang [in C:\Users\saral\Documents\Sistema\EclipseComplete\eclipse\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:689)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-09-29 21:03:50.619
+!MESSAGE Unknown javadoc format for RuntimeException {key=Ljava/lang/RuntimeException;} [in RuntimeException.class [in java.lang [in C:\Users\saral\Documents\Sistema\EclipseComplete\eclipse\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:05:01.659
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:05:01.659
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:08:08.873
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:08:08.873
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:12:20.906
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:12:20.906
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:15:22.352
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:15:22.352
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-09-29 21:36:09.654
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for RuntimeException {key=Ljava/lang/RuntimeException;} [in RuntimeException.class [in java.lang [in C:\Users\saral\Documents\Sistema\EclipseComplete\eclipse\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:689)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-09-29 21:36:09.654
+!MESSAGE Unknown javadoc format for RuntimeException {key=Ljava/lang/RuntimeException;} [in RuntimeException.class [in java.lang [in C:\Users\saral\Documents\Sistema\EclipseComplete\eclipse\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:37:01.965
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:37:01.965
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:37:54.943
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:37:54.943
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-09-29 21:38:57.596
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Integer {key=Ljava/lang/Integer;} [in Integer.class [in java.lang [in C:\Users\saral\Documents\Sistema\EclipseComplete\eclipse\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:689)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-09-29 21:38:57.596
+!MESSAGE Unknown javadoc format for Integer {key=Ljava/lang/Integer;} [in Integer.class [in java.lang [in C:\Users\saral\Documents\Sistema\EclipseComplete\eclipse\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:43:31.555
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:43:31.555
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:44:00.908
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-29 21:44:00.908
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

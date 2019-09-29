@@ -1,0 +1,51 @@
+package test;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+import java.util.ArrayList;
+
+import material.Plateau;
+import material.Punto;
+import material.Rover;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class PlateauTest {
+	
+	Plateau p;
+	Rover r1,r2;
+	Punto p1,p2;
+	
+	@Before
+	public void setUp(){
+		p= new Plateau();
+		p1= new Punto(1,2);
+		p2= new Punto(3,3);
+		
+		r1=mock(Rover.class);		
+		when(r1.getCoordinate()).thenReturn(p1);
+		when(r1.getHeading()).thenReturn("N");
+		r2=mock(Rover.class);
+		when(r2.getCoordinate()).thenReturn(p2);
+		when(r2.getHeading()).thenReturn("E");		
+	}
+	
+	@Test
+	public void moveRoverTest() {
+		p.addRover(r1);
+		assertThat(p.getRoverOnMars().size()).isEqualTo(1);
+		p.addCommand("LM");
+		p.addRover(r2);
+		p.addCommand("M");
+		
+		p.moveRover();
+		
+		assertThat(p.getRoverOnMars().get(0).getHeading()).isEqualTo("W");
+		assertThat(p.getRoverOnMars().get(1).getHeading()).isEqualTo("E");
+		
+	}
+
+}

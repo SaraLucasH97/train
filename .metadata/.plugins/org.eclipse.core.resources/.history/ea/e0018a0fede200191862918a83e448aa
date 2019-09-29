@@ -1,0 +1,61 @@
+package test;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
+
+import java.util.ArrayList;
+
+import material.Plateau;
+import material.Punto;
+import material.Rover;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class PlateauTest {
+	
+	Plateau p;
+	Rover r1,r2;
+	Punto p1,p2;
+	
+	@Before
+	public void setUp(){
+		p= new Plateau();
+		p1= new Punto(1,2);
+		p2= new Punto(3,3);
+		
+		r1=new Rover(p1,"N");	
+		r2=new Rover(p2,"E");
+				
+	}
+	
+	@Test
+	public void moveRoverTest() {
+		p.addRover(r1);
+		assertThat(p.getRoverOnMars().size()).isEqualTo(1);
+		p.addCommand("LMLMLMLMM");
+		p.addRover(r2);
+		p.addCommand("MMRMMRMRRM");
+		
+		p.moveRover();
+		
+		ArrayList<Rover> result=p.getRoverOnMars();
+		assertThat(result.get(0).getHeading()).isEqualTo("N");
+		assertThat(result.get(0).getCoordinate().getX()).isEqualTo(1);
+		assertThat(result.get(0).getCoordinate().getY()).isEqualTo(3);
+		
+		assertThat(result.get(1).getHeading()).isEqualTo("E");
+		assertThat(result.get(1).getCoordinate().getX()).isEqualTo(5);
+		assertThat(result.get(1).getCoordinate().getY()).isEqualTo(1);		
+	}
+	
+	@Test
+	public void moverExceptionTest(){
+		assertThatThrownBy(()->{
+			p.addRover(r1);
+			p.addCommand("RRMMM");
+			p.moveRover();
+		}).isInstanceOf(RuntimeException.class).hasMessageContaining("Value out of bound. It must be higher or equal than 0.");
+	}
+
+}

@@ -75,12 +75,15 @@ public class Rover {
 			break;
 		case "E":
 			n=this.coordinate.getX();
-			this.coordinate.setX(n-1);
+			this.coordinate.setX(n+1);
 			break;
 		case "W":
 			n=this.coordinate.getX();
-			this.coordinate.setX(n+1);
+			this.coordinate.setX(n-1);
 			break;			
 		}		
+	}
+	public String toString(){
+		return this.getCoordinate()+" "+this.getHeading();
 	}
 }

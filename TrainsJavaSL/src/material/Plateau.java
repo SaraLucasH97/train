@@ -15,13 +15,27 @@ public class Plateau {
 		this.roverOnMars=new ArrayList<>();
 		this.commandToRover=new ArrayList<>();
 	}
+	public int getMaxX() {
+		return maxX;
+	}
+	public void setMaxX(int maxX) {
+		this.maxX = maxX;
+	}
+	public int getMaxY() {
+		return maxY;
+	}
+	public void setMaxY(int maxY) {
+		this.maxY = maxY;
+	}
 	public void addRover(Rover r){
 		this.roverOnMars.add(r);
 	}
 	public void addCommand(String c){
 		this.commandToRover.add(c);
 	}
-	
+	public ArrayList<Rover> getRoverOnMars() {
+		return roverOnMars;
+	}
 	public void moveRover(){
 		Iterator<Rover> itRover=roverOnMars.iterator();
 		Iterator<String> itCommand=commandToRover.iterator();
@@ -36,16 +50,25 @@ public class Plateau {
 						r.turnLeft();
 						break;
 					case'R':
-						r.turnLeft();
+						r.turnRight();
 						break;
 					case'M':
 						r.move();
+						if(r.getCoordinate().getX()<0 || r.getCoordinate().getY()<0){
+							throw new RuntimeException("Value out of bound.It has to be equal or higher than 0");
+						}
+						if(r.getCoordinate().getX()>this.maxX){
+							throw new RuntimeException("Value out of bound.It has to be equal or lower than"+maxX);
+						}
+						if(r.getCoordinate().getY()>this.maxY){
+							throw new RuntimeException("Value out of bound.It has to be equal or lower than"+maxY);
+						}
 						break;
 					default:
 						throw new RuntimeException("This character is not allowed. Use L,R or M.");					
 				}
 			}
-		}
+		}		
 	}
 	
 	public static void main(String[ ] arg) {
@@ -74,6 +97,20 @@ public class Plateau {
 				while(scanner.hasNextLine()){
 					String rover= scanner.nextLine();
 					s=rover.split(" ");
+					int x=Integer.parseInt(s[0]);
+					int y=Integer.parseInt(s[1]);
+					
+					//Check that the values are correct
+					if(y<0 || x<0){
+						throw new RuntimeException("Value out of bound.It has to be equal or higher than 0");
+					}
+					if(x>plateau.getMaxX()){
+						throw new RuntimeException("Value out of bound.It has to be equal or lower than"+plateau.getMaxX());
+					}
+					if(y>plateau.getMaxY()){
+						throw new RuntimeException("Value out of bound.It has to be equal or lower than"+plateau.getMaxY());
+					}
+					
 					Rover r= new Rover(Integer.parseInt(s[0]),Integer.parseInt(s[1]),s[2]);
 					plateau.addRover(r);
 					String command= scanner.nextLine();
@@ -82,7 +119,9 @@ public class Plateau {
 				
 				//Then we have all the information to get an output
 				plateau.moveRover();
-				
+				for(Rover a:plateau.getRoverOnMars()){
+					System.out.println(a);
+				}
 			}catch (Exception ex){
 				ex.printStackTrace();
 			}finally{
@@ -96,17 +135,7 @@ public class Plateau {
 				}
 			}
 		}
-    }
-	public int getMaxX() {
-		return maxX;
-	}
-	public void setMaxX(int maxX) {
-		this.maxX = maxX;
-	}
-	public int getMaxY() {
-		return maxY;
-	}
-	public void setMaxY(int maxY) {
-		this.maxY = maxY;
-	}
+    }	
+	
+	
 }
