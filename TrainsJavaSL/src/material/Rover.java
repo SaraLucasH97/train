@@ -8,6 +8,10 @@ public class Rover {
 		this.coordinate=new Punto(x,y);
 		this.heading=h;
 	}
+	public Rover( Punto p, String h){
+		this.coordinate=p;
+		this.heading=h;
+	}
 
 	public Punto getCoordinate() {
 		return coordinate;
@@ -24,14 +28,59 @@ public class Rover {
 	public void setHeading(String heading) {
 		this.heading = heading;
 	}
-
-	public void turnLeft() {
-		// TODO Auto-generated method stub
+	public void turnRight() {
+		switch(this.heading){
+			case "N":
+				this.heading="E";
+				break;
+			case "S":
+				this.heading="W";
+				break;
+			case "E":
+				this.heading="S";
+				break;
+			case "W":
+				this.heading="N";
+				break;			
+		}
 		
+	}
+	public void turnLeft() {
+		switch(this.heading){
+		case "N":
+			this.heading="W";
+			break;
+		case "S":
+			this.heading="E";
+			break;
+		case "E":
+			this.heading="N";
+			break;
+		case "W":
+			this.heading="S";
+			break;			
+		}
 	}
 
 	public void move() {
-		// TODO Auto-generated method stub
-		
+		int n;
+		switch(this.heading){
+		case "N":
+			n=this.coordinate.getY();
+			this.coordinate.setY(n+1);
+			break;
+		case "S":
+			n=this.coordinate.getY();
+			this.coordinate.setY(n-1);
+			break;
+		case "E":
+			n=this.coordinate.getX();
+			this.coordinate.setX(n-1);
+			break;
+		case "W":
+			n=this.coordinate.getX();
+			this.coordinate.setX(n+1);
+			break;			
+		}		
 	}
 }
