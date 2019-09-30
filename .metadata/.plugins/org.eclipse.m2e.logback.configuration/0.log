@@ -103,3 +103,19 @@
 2019-09-29 21:44:00,908 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saral\OneDrive\Documentos\GitHub\train\TrainsJavaSL\src\main\resources
 2019-09-29 21:44:00,908 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-09-29 21:44:00,908 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saral\OneDrive\Documentos\GitHub\train\TrainsJavaSL\src\test\resources
+2019-09-29 22:56:41,650 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-29 22:56:41,759 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saral\OneDrive\Documentos\GitHub\train\TrainsJavaSL\src\main\resources
+2019-09-29 22:56:41,759 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-29 22:56:41,759 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saral\OneDrive\Documentos\GitHub\train\TrainsJavaSL\src\test\resources
+2019-09-29 23:10:21,069 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-29 23:10:21,069 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saral\OneDrive\Documentos\GitHub\train\TrainsJavaSL\src\main\resources
+2019-09-29 23:10:21,084 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-29 23:10:21,084 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saral\OneDrive\Documentos\GitHub\train\TrainsJavaSL\src\test\resources
+2019-09-30 11:26:18,822 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-30 11:26:18,841 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saral\OneDrive\Documentos\GitHub\train\TrainsJavaSL\src\main\resources
+2019-09-30 11:26:18,852 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-30 11:26:18,854 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saral\OneDrive\Documentos\GitHub\train\TrainsJavaSL\src\test\resources
+2019-09-30 11:29:41,003 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-30 11:29:41,005 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saral\OneDrive\Documentos\GitHub\train\TrainsJavaSL\src\main\resources
+2019-09-30 11:29:41,006 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-30 11:29:41,006 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saral\OneDrive\Documentos\GitHub\train\TrainsJavaSL\src\test\resources
