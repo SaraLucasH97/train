@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RoverTest" project="TrainsJavaSL" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="test.RoverTest" time="0.86">
+    <testcase name="moveTest" classname="test.RoverTest" time="0.791"/>
+    <testcase name="coordinateTest" classname="test.RoverTest" time="0.068"/>
+  </testsuite>
+</testrun>

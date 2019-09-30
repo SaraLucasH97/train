@@ -34,7 +34,7 @@ public class RoverTest {
 	public void moveTest() {			
 		r.turnLeft();
 		r.move();
-		verify(p).setX(2);				
+		verify(p).setX(4);				
 		r.turnRight();
 		r.move();
 		verify(p).setY(5);				
